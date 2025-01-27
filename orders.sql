@@ -1,0 +1,2 @@
+-- orders 테이블 생성 CREATE TABLE orders ( order_id INT, order_status VARCHAR(50) ); 
+-- 데이터 삽입 INSERT INTO orders (order_id, order_status) VALUES (101, 'Shipped'), (102, 'Pending'), (103, 'Shipped'), (104, 'Delivered'), (105, 'Pending');
