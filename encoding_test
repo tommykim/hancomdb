@@ -1,0 +1,11 @@
+CREATE TABLE encoding_test (
+    id INT PRIMARY KEY,
+    text_data VARCHAR(255)
+);
+
+INSERT INTO encoding_test (id, text_data)
+VALUES 
+(1, 'Hello, World!'),        -- ASCII 문자열
+(2, '¡Hola, Mundo!'),        -- 라틴 문자
+(3, '안녕하세요'),            -- 한글 (UTF-8이 필요함)
+(4, 'Café');                 -- 특수 문자 포함 라틴 문자
