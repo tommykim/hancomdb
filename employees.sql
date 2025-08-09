@@ -1,4 +1,5 @@
-DROP TABLE `employees`;
+DROP TABLE IF EXISTS `employees`;
+
 CREATE TABLE `employees` (
     `employee_id` INT NOT NULL,
     `name` VARCHAR(100) DEFAULT NULL,
